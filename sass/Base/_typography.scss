@@ -1,0 +1,132 @@
+.header__content-title {
+    font-size: 4.5rem;
+    font-family: "Cookie", cursive;
+    color: $white-img-color;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 2px;
+    line-height: 5rem;
+}
+.header__content-sub {
+    color: $white-img-color;
+    padding: 2rem 6.5rem;
+    border-bottom: 1px solid rgba(216,216,216,0.6);
+    border-top: 1px solid rgba(216,216,216,0.6);
+    width: 80%;
+    line-height: 2rem;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+}
+// demo section
+.demo-1-caption {
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: $white-color;
+    text-align: center;
+    margin-bottom: 2.2rem;
+    font-weight: 400;
+}
+// about section
+.about-heading {
+    font-size: 1.5rem;
+    color: $black-header-color;
+    font-weight: 800;
+    letter-spacing: 1.6px;
+    line-height: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.about-heading__title {
+    display: block;
+}
+// offer-section
+.offer-heading {
+    font-size: 5rem;
+    font-weight: 500;
+    line-height: 5rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: $white-img-color;
+}
+.offer-text {
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    line-height: 1.6rem;
+    color: $white-img-color;
+    font-size: 0.9rem;
+    text-align: center;
+    width: 79%;
+}
+// more_than - section
+.more-than__heading-title {
+    color: $black-header-color;
+    font-weight: 800;
+    font-size: 1.6rem;
+    letter-spacing: 1.6px;
+    line-height: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.more-than__heading-sub {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.2rem;
+    color: $black-header-color;
+    font-size: 0.9rem;
+    text-align: center;
+    width: 75%;
+}
+.more-than__content-heading {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: $black-header-primary-color;
+    text-transform: uppercase;
+    margin-top: 1.6rem;
+}
+.more-than__content-text {
+    color: $black-text-color;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+}
+// video-section
+.video-box__heading {
+    font-size: 5rem;
+    line-height: 5rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: $white-img-color;
+    font-weight: 500;
+}
+.video-box__des {
+    font-size: 3rem;
+    font-family: "Cookie", cursive;
+    color: $white-img-color;
+    letter-spacing: 1.6px;
+    font-weight: 400;
+    line-height: 3rem;
+    text-align: center;
+}
+// testimonial-section
+.testimonial__content-heading {
+    text-transform: uppercase;
+    color: $white-img-color;
+    font-size: 1.6rem;
+    letter-spacing: 1.6px;
+    font-weight: 400;
+    line-height: 2rem;
+    text-align: center;
+}
+// event-section
+.event__heading {
+    text-transform: uppercase;
+    color: $black-header-color;
+    font-weight: 800;
+    letter-spacing: 1.6px;
+    text-align: center;
+}
+.event-text {
+    
+    color: $hover-learn-more-color;
+}

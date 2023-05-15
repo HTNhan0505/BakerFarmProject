@@ -1,0 +1,36 @@
+.testimonial {
+    background-image: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(../img/testimonial.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    height: 50rem;
+    &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.testimonial__content-sub {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    i {
+        color: $gray-low-color;
+        font-size: 2.7rem;
+        align-self: flex-start;
+        transform: rotateY(180deg);
+        margin-left: 5rem;
+    }
+    blockquote {
+        color: #eee;
+        font-size: 1.1rem;
+        transition: all .2s;
+        line-height: 1.8rem;
+        text-align: center;
+        width: 74%;
+    }
+}
+

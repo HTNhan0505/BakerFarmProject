@@ -1,0 +1,40 @@
+.demo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -3rem;
+}
+figure {
+    margin: -15px 0 1rem;
+}
+.demo-1,
+.demo-2,
+.demo-3 {
+    z-index: 100;
+    transition: all .5s;
+    width: 22rem;
+    height: 22rem;
+    border: 11px solid $white-color;
+    border-radius: 50%;
+    box-shadow: 0  1rem 5rem rgb(0 0 0 / 14%);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.demo-1 {
+    background-image: linear-gradient(to top, rgba(231,157,60,0.95) 0%, rgba(231,157,60,0.95) 37.5%, transparent 37.5%),url(../img/demo1.jpeg);
+    background-position: center;
+    background-size: cover;
+}
+.demo-2 {
+    background-image: linear-gradient(to top, rgba(233,48,79,0.95) 0%, rgba(233,48,79,0.95) 37.5%, transparent 37.5%),url(../img/demo2.jpeg);
+    background-position: top;
+    background-size: cover;
+    margin-top: -7.5rem;
+}
+.demo-3 {
+    background-image: linear-gradient(to top, rgba(20,218,96,0.95) 0%, rgba(20,218,96,0.95) 37.5%, transparent 37.5%),url(../img/demo3.jpeg);
+    background-position: center;
+    background-size: cover;
+}

@@ -1,0 +1,23 @@
+.video {
+    margin-top: 130px;
+    background-image: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/video-section.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 9.5rem;
+    height: 750px;
+}
+.video-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7rem 10rem;
+    border-bottom: 1px solid rgba(216,216,216,0.6);
+    border-top: 1px solid rgba(216,216,216,0.6);
+    position: relative;
+    margin: 0 auto;
+}

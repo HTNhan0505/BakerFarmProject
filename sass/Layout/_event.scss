@@ -1,0 +1,52 @@
+.event {
+    box-shadow: 0 1rem 1rem rgb(0 0 0 / 5%);
+    padding: 3rem 2rem;
+}
+.event-wrap {
+    width: 70%;
+    margin-left: 20px;
+    margin-top: 7px;
+}
+.event__wrap-box1 {
+    display: flex;
+    &-detail {
+        color: $text-event-color;
+        font-size: 0.9rem;
+        line-height: 1.3rem;
+    }
+}
+.event__wrap-box1-title {
+    display: flex;
+    position: relative;
+    &-heading {
+        position: absolute;
+        bottom: 0;
+        left: 4.5rem;
+        font-size: .9rem;
+        text-transform: uppercase;
+        color: $hover-learn-more-color;
+        font-weight: 800;
+        letter-spacing: 1px;
+        line-height: 1.3rem;
+    }
+}
+.event__wrap-box1-time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &-day {
+        font-size: 4rem;
+        color: $hover-learn-more-color;
+        font-weight: 700;
+        line-height: 3rem;
+        text-transform: uppercase;
+        margin-bottom: 0;
+        font-family: "Cookie", cursive;
+    }
+    &-month {
+        text-transform: uppercase;
+        color: $hover-learn-more-color;
+        margin-bottom: 0;
+        font-weight: 800;
+    }
+}

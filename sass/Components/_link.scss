@@ -1,0 +1,211 @@
+.header__nav-menu-link {
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+    transition: all .2s ease;
+    margin-right: 30px;
+}
+.header__nav-menu-link:hover {
+    color: $header-hover-color;
+    transform: translateY(-3px) scale(1.1);
+}
+.header__btn {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $white-color;
+    font-size: 1rem;
+    padding: 10px 15px;
+    margin: 20px 0;
+    transition: .6s all ease;
+    overflow: hidden;
+    border: none;
+}
+.header__btn::before {
+    z-index: -1;
+    background: $white-color;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -20%;
+    transition: all 0.5s ease;
+}
+.header__content-link::before{
+    width: 0;
+    height: 150%;
+    transform: translate(0,0) skew(-40deg);
+}
+.header__content-link:hover::before{
+    width: 150%;
+}
+.header__btn:hover {
+    color: $hover-learn-more-color;
+    transform: translateY(-5px);
+}
+// demo-section-link
+.demo-1-link {
+    height: 4rem;
+    width: 4rem;
+    background-color: white;
+    border-radius: 50%;
+    margin-bottom: -2rem;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    i {
+        color: #e9304f;
+        font-size: 1rem;
+        position: absolute;
+        top: 0.8rem;
+        left: 1.8rem;
+        font-weight: 600;
+        transition: all .2s;
+    }
+}
+.demo-1-link:hover i {
+    color: #333;
+}
+// about link
+.about-link {
+    text-decoration: none;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-bottom: 3px #e79d3c solid;
+    transition: all .3s;
+}
+.about-link:hover {
+    transform: translateY(-5px);
+    color: $header-hover-color;
+}
+// offer1 link 
+.offer-link {
+    border: 1px solid $white-img-color;
+    color: $white-img-color;
+    border-radius: 0.4rem;
+    background-color: transparent;
+    transition: all .2s;
+    text-decoration: none;
+
+    text-transform: uppercase;
+    padding: 0.7rem 1.7rem;
+}
+.offer-link:hover {
+    background-color: $white-color;
+    color: $black-header-color;
+}
+// more than - link 
+.more-than__content-link {
+    border: 1px solid #333;
+    color: #333;
+    border-radius: 0.4rem;
+    background-color: transparent;
+    transition: all .2s;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 0.7rem 1.5rem;
+    position: absolute;
+    margin-top: 1.5rem;
+    // bottom: 0;
+    // left: 0;
+}
+.more-than__content-link:hover {
+    background-color: #333333;
+    color: $white-color;
+}
+// video - link 
+.video-link {
+    padding: 1.2rem 1.8rem;
+    background-color: #f1f1f1;
+    border-radius: 50%;
+    font-size: 2.6rem;
+    position: absolute;
+    bottom: -2rem;
+    color: #007bff;
+    text-decoration: none;
+    line-height: 1.4rem;
+}
+.video-icon {
+    font-weight: 900;
+    font-size: 1.4rem;
+}
+.video-link:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+// testimonial-link
+.testimonial__content-link {
+    text-decoration: none;
+    color: $white-img-color;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1rem;
+    padding: 0.5rem 0.7rem;
+    border-bottom: 3px $header-hover-color solid;
+    transition: all .3s;
+}
+.testimonial__content-link:hover {
+    transform: translateY(-6px);
+}
+// event-section
+.event__wrap-box1-link {
+    font-size: 1rem;
+    color: $black-header-color;
+    text-transform: uppercase;
+    font-weight: 800;
+    text-decoration: none;
+    background-color: transparent;
+    margin-top: 25px;
+    display: block;
+}
+.event__wrap-box1-link:hover {
+    color: #e79d3c;
+    text-decoration: underline;
+}
+// contact-section
+.contact__content-info--link {
+    text-decoration: none;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: $black-header-primary-color;
+    font-weight: 700;
+}
+// modal-link
+.modal-container__btn-1 {
+    font-size: .9rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $black-header-color;
+    background-color: $background-modal-link;
+    padding: .9rem 1.8rem;
+    font-weight: 800;
+    border-radius: 3px;
+    box-shadow: 0 1rem 0.01rem rgb(0 0 0 / 5%);
+    margin-right: 2.5rem;
+    transition: all .2s;
+}
+.modal-container__btn-2 {
+    border: 1px solid #333;
+    color: #333;
+    border-radius: 0.2rem;
+    background-color: transparent;
+    transition: all .2s;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: .7rem 1rem;
+}
+.modal-hover:hover {
+    background-color: $black-header-color;
+    color: $white-color;
+}
+// menu-nav-link
+.moblie-nav__link {
+    text-decoration: none;
+    color: $white-color;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+.moblie-nav__link:hover {
+    color: $header-hover-color;
+}
